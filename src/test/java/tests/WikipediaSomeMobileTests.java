@@ -34,8 +34,8 @@ public class WikipediaSomeMobileTests extends TestBase {
 
     @Test
     @DisplayName("Поиск статьи по запросу Java")
-    @Tags({@Tag("api"), @Tag("001")})
-    @Severity(SeverityLevel.NORMAL)
+    //@Tags({@Tag("api"), @Tag("001")})
+    //@Severity(SeverityLevel.NORMAL)
     void wikiSearchTest() {
         //step("Skip first onboarding page", () -> back());
         $(MobileBy.id("org.wikipedia.alpha:id/fragment_onboarding_skip_button")).click(); //? или
